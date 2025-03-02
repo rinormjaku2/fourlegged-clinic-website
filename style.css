@@ -1,0 +1,754 @@
+/* Home */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a {
+    margin: 22px;
+    padding: 22px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins' , sans-serif;
+    color: coral;
+    
+}
+
+#logo{
+    width: 150px;
+    margin-top: -130px;
+    padding: 20px;
+    border-radius: 40%;
+}
+
+body{
+    background-color: #f3e5d3;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: black;
+        margin: 0;
+        padding: 0;
+    }
+    
+.hero-content h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    
+.hero-content p {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    footer {
+        margin-top: auto;
+        background-color: #f3e5d3;  
+        text-align: center;
+        padding: 20px ;
+        color: black;
+    }
+
+#features {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f3e5d3; 
+}
+
+#features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: coral; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.feature-card h3 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: coral; 
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+#testimonials {
+    background-color: #f1f1f1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: coral; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    font-style: italic;
+    color: #333;
+}
+
+
+
+#fun-facts {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+}
+
+#fun-facts h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: coral;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.fact {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #333;
+}
+
+/* Available-Pets */
+    
+.btn {
+        background-color: coral;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    #available-pets {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .pet {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .pet-card {
+        background: #f9f9f9;
+        border-radius: 10px;
+        padding: 20px;
+        width: 250px;
+        min-height: 400px; 
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        font-family: 'Poppins', sans-serif;
+        transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+    
+    .pet-card img {
+        width: 100%;
+        height: 200px; 
+        border-radius: 10px;
+        object-fit: cover; 
+    }
+    
+    .pet-card h3 {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    
+    .pet-card p {
+        margin: 10px 0;
+        font-size: 16px;
+        flex-grow: 1; 
+    }
+    
+    .pet-card:hover {
+        background-color: burlywood;
+        transform: scale(1.05);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    body{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        border: #f1f1f1;
+        font-weight: bold;
+     }
+    html, body {
+    height: 100%;
+    margin: 0;
+}
+    
+    body{
+    display: flex;
+    flex: column;
+}
+
+.search {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#search, #animals {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Veterinary Care Services */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3e5d3; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#veterinary-care {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #444;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.introduction {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff7f50;
+}
+
+
+.services {
+    margin-bottom: 30px;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+
+.service-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+
+
+.contact {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.testimonials {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.testimonial-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.testimonial-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.special-offers {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.special-offers p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Appointments */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3e5d3; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.appointment-icon {
+    width: 100px;
+    height: px; 
+    vertical-align: middle; 
+    margin-right: 10px;
+}
+
+#appointments {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.introduction{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff7f50;
+}
+
+/* Booking Form Section */
+.booking-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.booking-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.booking-form input, .booking-form select, .booking-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.booking-form button {
+    background-color: coral;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.booking-form button:hover {
+    background-color: #ff7f50;
+}
+
+
+.why-choose-us {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.why-choose-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-choose-us li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Pet Care Tips */
+
+#pet-care-tips {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#pet-care-tips h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#pet-care-tips p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.tip-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.tip-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: coral;
+}
+
+.tip-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.tip-card li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+/* Contact */
+
+#contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f3e5d3;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: coral;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info, .contact-form, .map-container {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info:hover, .contact-form:hover, .map-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info h3, .contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: coral;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.info-item .icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: coral;
+}
+
+.info-item p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.socialmedia-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.socialmedia-links a {
+    text-decoration: none;
+    color: coral;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+}
+
+.form {
+    margin-bottom: 15px;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ff7f50;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.map-container iframe {
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li a {
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #hero {
+        height: auto;
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .pet {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pet-card {
+        width: 90%;
+    }
+
+    .service-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
